@@ -9,3 +9,10 @@ def serve(c, debug=False):
         cmd = " ".join([cmd, "--debug"])
     with c.cd("librarian/"):
         c.run(cmd)
+
+
+@task
+def download(c):
+    """Download book data from openBD"""
+    with c.cd("librarian/"):
+        c.run("python download.py")
