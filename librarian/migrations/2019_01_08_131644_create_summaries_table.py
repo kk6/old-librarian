@@ -8,18 +8,16 @@ class CreateSummariesTable(Migration):
         """
         with self.schema.create("summaries") as table:
             # openBD original
-            table.string("isbn", 13)
-            table.string("title")
+            table.string("isbn")
+            table.long_text("title")
             table.string("volume")
             table.string("series")
-            table.string("author")
+            table.long_text("author")
             table.string("publisher")
             table.string("pubdate")
-            table.string("cover")
+            table.long_text("cover")
             # Librarian original
-            table.date("published_at")
-
-            table.primary("isbn")
+            table.date("published_at").nullable()
 
     def down(self):
         """

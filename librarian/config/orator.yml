@@ -1,4 +1,8 @@
 databases:
-  sqlite:
-    driver: sqlite
-    database: db.sqlite
+  mysql:
+    driver: mysql
+    host: localhost
+    database: librarian
+    user: root
+    password: ""
+    prefix: ""

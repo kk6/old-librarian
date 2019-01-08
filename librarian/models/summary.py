@@ -1,4 +1,4 @@
-from orator import Model
+from config.database import Model
 
 
 class Summary(Model):
