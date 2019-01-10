@@ -69,14 +69,10 @@ uvicorn = "*"
 websockets = ">=6.0"
 whitenoise = "*"
 
-[[package]]
-category = "dev"
-description = "A decorator for caching properties in classes."
-name = "cached-property"
-optional = false
-python-versions = "*"
-version = "1.5.1"
-
+[package.source]
+reference = "d4390a02960a6ce6bef3c29a31840ecc06f69840"
+type = "git"
+url = "https://github.com/bocadilloproject/bocadillo.git"
 [[package]]
 category = "main"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -380,12 +376,11 @@ description = "A framework for managing and maintaining multi-language pre-commi
 name = "pre-commit"
 optional = false
 python-versions = "*"
-version = "1.13.0"
+version = "1.14.0"
 
 [package.dependencies]
 "aspy.yaml" = "*"
-cached-property = "*"
-cfgv = ">=1.0.0"
+cfgv = ">=1.4.0"
 identify = ">=1.0.0"
 importlib-metadata = "*"
 nodeenv = ">=0.11.1"
@@ -682,7 +677,7 @@ python-versions = ">=2.7"
 version = "0.3.3"
 
 [metadata]
-content-hash = "a45d79be8aec886926ffb4411490fbf700299c7aa86d2551e80c6438eee2d0c7"
+content-hash = "eb9c0307a88bc5786b19491c24caad4dc287274c1c2ef24625ed4e1e00ba61f7"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -692,8 +687,7 @@ attrs = ["10cbf6e27dbce8c30807caf056c8eb50917e0eaafe86347671b57254006c3e69", "ca
 backpack = ["0162cf7b34c810ba4ddbbd32a1e5e804ef96fcf2fea5ce2848aa4950770d3893"]
 "backports.csv" = ["bed884eeb967c8d6f517dfcf672914324180f1e9ceeb0376fde2c4c32fd7008d", "f68c7115c7fbe6d4b4104327d2e677efb38aa09bd7f877b47a6de18e44975510"]
 blinker = ["471aee25f3992bd325afa3772f1063dbdbbca947a041b8b89466dc00d606f8b6"]
-bocadillo = ["00d03f43a74cdb658443ad79792d80e921938fab7afe8467bb8d4a00287db283", "1b24011ff313f082cd71ffde4f575a7ed3c2fedf25318c651af5967e9d66af93"]
-cached-property = ["3a026f1a54135677e7da5ce819b0c690f156f37976f3e30c5430740725203d7f", "9217a59f14a5682da7c4b8829deadbfc194ac22e9908ccf7c8820234e80a1504"]
+bocadillo = []
 certifi = ["47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7", "993f830721089fef441cdfeb4b2c8c9df86f0c63239f06bd025a76a7daddb033"]
 cfgv = ["39d9055c47e3932908fe25abd5807e21dc002630db01c7a5f05738d027e2b706", "41d22dd864c474f919ecb88900000d2410d640315f75bdb79b3abf9347089641"]
 chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
@@ -723,7 +717,7 @@ parse = ["9dd6048ea212cd032a342f9f6aa2b7bc222f7407c7e37bdc2777fecd36897437"]
 pastel = ["3108af417ec0fa6d0a620e676ec4f02c839ca13e10611586e5d2174b46aa0bc3", "d1fee8079534f99f1805a044fef946d23eee6d6a7cd34292c30e6c16be9a80b9"]
 pendulum = ["4173ce3e81ad0d9d61dbce86f4286c43a26a398270df6a0a89f501f0c28ad27d", "56a347d0457859c84b8cdba161fc37c7df5db9b3becec7881cd770e9d2058b3c", "738878168eb26e5446da5d1f7b3312ae993a542061be8882099c00ef4866b1a2", "95536b33ae152e3c831eb236c1bf9ac9dcfb3b5b98fdbe8e9e601eab6c373897", "c04fcf955e622e97e405e5f6d1b1f4a7adc69d79d82f3609643de69283170d6d", "dd6500d27bb7ccc029d497da4f9bd09549bd3c0ea276dad894ea2fdf309e83f3", "ddaf97a061eb5e2ae37857a8cb548e074125017855690d20e443ad8d9f31e164", "e7df37447824f9af0b58c7915a4caf349926036afd86ad38e7529a6b2f8fc34b", "e9732b8bb214fad2c72ddcbfec07542effa8a8b704e174347ede1ff8dc679cce", "f4eee1e1735487d9d25cc435c519fd4380cb1f82cde3ebad1efbc2fc30deca5b"]
 pluggy = ["447ba94990e8014ee25ec853339faf7b0fc8050cdc3289d4d71f7f410fb90095", "bde19360a8ec4dfd8a20dcb811780a30998101f078fc7ded6162f0076f50508f"]
-pre-commit = ["33bb9bf599c334d458fa9e311bde54e0c306a651473b6a36fdb36a61c8605c89", "e233f5cf3230ae9ed9ada132e9cf6890e18cc937adc669353fb64394f6e80c17"]
+pre-commit = ["1c1d0b64b3ceb8c688033847825cc9be19c2b3e2e58bf00b850487d3083dff6f", "8cc5c3475a38dc50d700b079733f0d0754c50fb1a6fb1ec7ed16784c1e145d5b"]
 prompt-toolkit = ["c1d6aff5252ab2ef391c2fe498ed8c088066f66bc64a8d5c095bbf795d9fec34", "d4c47f79b635a0e70b84fdb97ebd9a274203706b1ee5ed44c10da62755cf3ec9", "fd17048d8335c1e6d5ee403c3569953ba3eb8555d710bfc548faf0712666ea39"]
 py = ["bf92637198836372b520efcba9e020c330123be8ce527e535d185ed4b6f45694", "e76826342cefe3c3d5f7e8ee4316b80d1dd8a300781612ddbc765c17ba25a6c6"]
 pyaml = ["8b70b7cc2afa55dd89d2a31ef8abe4cfb3daa100cd63564f8fd97e6cac6cff5b", "b865e4f53a85f4d8a092e7701f759a3237fb3ee8a928627401914aafadc00907"]
