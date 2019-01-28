@@ -73,6 +73,7 @@ whitenoise = "*"
 reference = "d4390a02960a6ce6bef3c29a31840ecc06f69840"
 type = "git"
 url = "https://github.com/bocadilloproject/bocadillo.git"
+
 [[package]]
 category = "main"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -442,7 +443,7 @@ description = "pytest: simple powerful testing with Python"
 name = "pytest"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "3.10.1"
+version = "4.1.1"
 
 [package.dependencies]
 atomicwrites = ">=1.0"
@@ -677,7 +678,7 @@ python-versions = ">=2.7"
 version = "0.3.3"
 
 [metadata]
-content-hash = "eb9c0307a88bc5786b19491c24caad4dc287274c1c2ef24625ed4e1e00ba61f7"
+content-hash = "f69bb75826e9270e5da5c53054db6bff6f18a7ccec7e2502c78736f1fd2ea1f6"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -723,7 +724,7 @@ py = ["bf92637198836372b520efcba9e020c330123be8ce527e535d185ed4b6f45694", "e7682
 pyaml = ["8b70b7cc2afa55dd89d2a31ef8abe4cfb3daa100cd63564f8fd97e6cac6cff5b", "b865e4f53a85f4d8a092e7701f759a3237fb3ee8a928627401914aafadc00907"]
 pygments = ["5ffada19f6203563680669ee7f53b64dabbeb100eb51b61996085e99c03b284a", "e8218dd399a61674745138520d0d4cf2621d7e032439341bc3f647bff125818d"]
 pylev = ["063910098161199b81e453025653ec53556c1be7165a9b7c50be2f4d57eae1c3", "1d29a87beb45ebe1e821e7a3b10da2b6b2f4c79b43f482c2df1a1f748a6e114e"]
-pytest = ["3f193df1cfe1d1609d4c583838bea3d532b18d6160fd3f55c9447fdca30848ec", "e246cf173c01169b9617fc07264b7b1316e78d7a650055235d6d897bc80d9660"]
+pytest = ["41568ea7ecb4a68d7f63837cf65b92ce8d0105e43196ff2b26622995bb3dc4b2", "c3c573a29d7c9547fb90217ece8a8843aa0c1328a797e200290dc3d0b4b823be"]
 python-dateutil = ["063df5763652e21de43de7d9e00ccf239f953a832941e37be541614732cdfc93", "88f9287c0174266bb0d8cedd395cfba9c58e87e5ad86b2ce58859bc11be3cf02"]
 pytz = ["32b0891edff07e28efe91284ed9c31e123d84bea3fd98e1f72be2508f43ef8d9", "d5f05e487007e29e03409f9398d074e158d920d36eb82eaf66fb1136b0c5374c"]
 pytzdata = ["10c74b0cfc51a9269031f86ecd11096c9c6a141f5bb15a3b8a88f9979f6361e2", "279cbd9900d5da9a8f9053e60db0db7f42d9a799673744b76aaeb6b4f14abe77"]
