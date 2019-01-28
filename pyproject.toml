@@ -15,7 +15,7 @@ bocadillo = {git = "https://github.com/bocadilloproject/bocadillo.git"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
-pre-commit = "^1.13"
+pre-commit = "^1.14"
 invoke = "^1.2"
 litecli = "^1.0"
 
