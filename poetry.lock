@@ -582,7 +582,7 @@ description = "Fast, Extensible Progress Meter"
 name = "tqdm"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*"
-version = "4.29.0"
+version = "4.30.0"
 
 [[package]]
 category = "main"
@@ -678,7 +678,7 @@ python-versions = ">=2.7"
 version = "0.3.3"
 
 [metadata]
-content-hash = "db904b2fe357fb459f739ce3ee6973dd72996ce8e321ca2e7d6919d7a39abee9"
+content-hash = "2fa5c37ae82bbbd4942d96a95eb67742942b4740c44f0d1283874f7eaf2f532f"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -739,7 +739,7 @@ tabulate = ["e4ca13f26d0a6be2a2915428dc21e732f1e44dad7f76d7030b2ef1ec251cf7f2"]
 terminaltables = ["f3eb0eb92e3833972ac36796293ca0906e998dc3be91fbe1f8615b331b853b81"]
 text-unidecode = ["5a1375bb2ba7968740508ae38d92e1f889a0832913cb1c447d5e2046061a396d", "801e38bd550b943563660a91de8d4b6fa5df60a542be9093f7abf819f86050cc"]
 toml = ["229f81c57791a41d65e399fc06bf0848bab550a9dfd5ed66df18ce5f05e73d5c", "235682dd292d5899d361a811df37e04a8828a5b1da3115886b73cf81ebc9100e", "f1db651f9657708513243e61e6cc67d101a39bad662eaa9b5546f789338e07a3"]
-tqdm = ["79420109a762f82e20e8ecdc3b3bc1bc6c6536884a8de5fa86a50eb99386376a", "7fa801cf60e318bf7d2ac7498254df0f3d7a3ad23c622ae63666257d5f833967"]
+tqdm = ["13f018038711256ed27aae118a80d63929588e90f00d072a0f4eb7aa3333b4dc", "dd60ea2567baa013c625153ce41fd274209c69a5814513e1d635f20e5cd61b97"]
 tzlocal = ["4ebeb848845ac898da6519b9b31879cf13b6626f7184c496037b818e238f2c4e"]
 urllib3 = ["61bf29cada3fc2fbefad4fdf059ea4bd1b4a86d2b6d15e1c7c0b582b9752fe39", "de9529817c93f27c8ccbfead6985011db27bd0ddfcdb2d86f3f663385c6a9c22"]
 uvicorn = ["ab570ef3b088ddf30a8a2bb97f624c4eabe246301c2f21e38a48c82bfa3d8f52"]
